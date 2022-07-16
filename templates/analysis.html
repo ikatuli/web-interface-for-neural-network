@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>{{ name }}</title>
+    </head>
+    <body>
+        <h1>Отчёт</h1>
+        <img src="{{ file }}" alt="{{ name }}" />
+        {% for ret_item in ret %}
+        <p>{{ ret_item }}</p>
+        {% endfor %}
+    </body>
+</html>

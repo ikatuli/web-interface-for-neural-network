@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>Отбор</h1>
+        <p>WEB-приложение для классификации изображений</p>
+        <form method="post" action="/upload" enctype="multipart/form-data">
+            <dl>
+                <p> <input type="file" name="file" autocomplete="off" required> </p>
+            </dl>
+
+            <p> <input type="submit" value="Submit"> </p>
+        </form>
+    </body>
+</html>
