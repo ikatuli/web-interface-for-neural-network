@@ -129,7 +129,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
-uploads/
-models/
+models/*
+!models/.gitkeep
+templates/uploads/*
+!templates/uploads/.gitkeep 
 *.backup
